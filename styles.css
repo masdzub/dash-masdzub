@@ -1,0 +1,99 @@
+:root {
+--bg-color-light: #ffffff;
+--text-color-light: #000000;
+--outline-color-light: #d1d5db;
+--bg-color-dark: #000000;
+--text-color-dark: #ffffff;
+--outline-color-dark: #4a5568;
+}
+
+body {
+background-color: var(--bg-color-light);
+color: var(--text-color-light);
+}
+
+.tool-card, .search-input {
+border: 1px solid var(--outline-color-light);
+}
+
+.dark-mode body {
+background-color: var(--bg-color-dark);
+color: var(--text-color-dark);
+}
+
+.dark-mode .tool-card, .dark-mode .search-input {
+border: 1px solid var(--outline-color-dark);
+}
+
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.text-muted {
+color: rgba(0, 0, 0, 0.7);
+}
+
+.dark-mode .text-muted {
+color: rgba(255, 255, 255, 0.7);
+}
+
+.search-input {
+background-color: var(--bg-color-light);
+color: var(--text-color-light);
+padding-right: 50px;
+border-radius: 8px;
+font-size: 14px;
+text-indent: 10px;
+position: relative;
+}
+
+.dark-mode .search-input {
+background-color: var(--bg-color-dark);
+color: var(--text-color-dark);
+}
+
+.search-input::placeholder {
+color: rgba(0, 0, 0, 0.5);
+font-size: 12px;
+text-align: center;
+}
+
+.dark-mode .search-input::placeholder {
+color: rgba(255, 255, 255, 0.5);
+}
+
+.tool-card {
+background-color: var(--bg-color-light);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+transition: background-color 0.3s;
+}
+
+.tool-card:hover {
+background-color: #f9fafb;
+}
+
+.dark-mode .tool-card {
+background-color: var(--bg-color-dark);
+box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .tool-card:hover {
+background-color: #151515;
+}
+
+footer {
+background-color: var(--bg-color-light);
+color: var(--text-color-light);
+text-align: center;
+padding: 10px 0;
+margin-top: auto;
+}
+
+.dark-mode footer {
+background-color: var(--bg-color-dark);
+color: var(--text-color-dark);
+}
