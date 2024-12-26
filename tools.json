@@ -1,0 +1,22 @@
+[
+    {
+      "name": "JSON Formatter",
+      "description": "Easily format and beautify your JSON data for improved readability and debugging.",
+      "link": "/utilities/json-formatter"
+    },
+    {
+      "name": "API Tester",
+      "description": "Test your API endpoints quickly and view the responses instantly.",
+      "link": "/utilities/api-tester"
+    },
+    {
+      "name": "Markdown Previewer",
+      "description": "Preview your markdown documents instantly and make adjustments in real-time.",
+      "link": "/utilities/markdown-previewer"
+    },
+    {
+      "name": "Base64 Encoder",
+      "description": "Encode and decode your data with Base64 encoding with ease.",
+      "link": "/utilities/base64-encoder"
+    }
+  ]
