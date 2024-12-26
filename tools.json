@@ -1,22 +1,47 @@
 [
     {
-      "name": "JSON Formatter",
-      "description": "Easily format and beautify your JSON data for improved readability and debugging.",
-      "link": "/utilities/json-formatter"
+      "name": "Local Clock",
+      "description": "Showing local clock as website.",
+      "link": "https://clock.masdzub.com/"
     },
     {
-      "name": "API Tester",
-      "description": "Test your API endpoints quickly and view the responses instantly.",
-      "link": "/utilities/api-tester"
+      "name": "Global Time Tapestry",
+      "description": "Global Time Tapestry is a web application that displays time across various time zones around the world.",
+      "link": "https://time.masdzub.com/"
     },
     {
-      "name": "Markdown Previewer",
-      "description": "Preview your markdown documents instantly and make adjustments in real-time.",
-      "link": "/utilities/markdown-previewer"
+      "name": "DNS Checker Online",
+      "description": "This nifty little web app lets you peek under the hood of any domain's DNS records. Whether you're troubleshooting, curious, or just love DNS (we won't judge), this tool's got you covered.",
+      "link": "https://dnscheck.masdzub.com/"
     },
     {
-      "name": "Base64 Encoder",
-      "description": "Encode and decode your data with Base64 encoding with ease.",
-      "link": "/utilities/base64-encoder"
+      "name": "Password Generator",
+      "description": "The website allow you to generate strong password.",
+      "link": "https://password.masdzub.com/"
+    },
+    {
+      "name": "Check IP Tools",
+      "description": "The simple website allow you to check your Public IP",
+      "link": "https://ip.masdzub.com"
+    },
+    {
+      "name": "Year Progress Tracker",
+      "description": "The simple web application that tracks the progress of the current year. It displays the percentage of the year that has passed, the current day of the year, and the current date.",
+      "link": "https://progress-year.masdzub.com/"
+    },
+    {
+      "name": "Tools CLI Base for work",
+      "description": "",
+      "link": "https://github.com/masdzub/tools-for-work"
+    },
+    {
+      "name": "Change SSH Port",
+      "description": "Simple tools to change the SSH port on server using one command",
+      "link": "https://github.com/masdzub/change-port-vps"
+    },
+    {
+      "name": "Yourls using Bash Script",
+      "description": "Simple Script allow you to short URL using command CLI",
+      "link": "https://github.com/masdzub/bash-yourls"
     }
   ]
