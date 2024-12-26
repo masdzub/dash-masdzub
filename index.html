@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
   <title>Dashboard Utilities</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -104,7 +105,7 @@
         const toolCard = document.createElement('a');
         toolCard.href = tool.link;
         toolCard.target = "_blank"; // Open link in new tab
-        toolCard.classList.add('flex', 'mb-6', 'tool-card', 'rounded-lg', 'shadow', 'hover:bg-blue-50', 'dark:hover:bg-gray-700', 'transition');
+        toolCard.classList.add('flex', 'mb-6', 'tool-card', 'rounded-lg', 'shadow', 'hover', 'transition');
 
         const cardContent = document.createElement('div');
         cardContent.classList.add('p-6', 'items-baseline', 'flex', 'flex-col', 'rounded-lg');
@@ -161,11 +162,11 @@
   <div class="container mx-auto py-10 flex-grow">
     <div class="container text-center mb-14">
       <div class="flex justify-center items-center mb-4">
-        <svg class="flex rounded-2xl" width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="64" height="64" fill="#9D7CEE"></rect>
+        <img class="flex rounded-2xl" src="https://ucarecdn.com/78df38a0-e227-494c-921c-e4810263fde4/-/preview/100x100/" alt="Logo" width="64" height="64" />
+                <rect width="64" height="64" fill="#9D7CEE"></rect>
         </svg>
       </div>
-      <h1 class="text-3xl font-bold mb-5">Dashboard Utilities</h1>
+      <h1 class="text-3xl font-bold mb-5">Utilities Dashboard</h1>
       <p class="text-lg text-muted mb-7 leading-6 font-light">
         A set of powerful and easy-to-use tools designed to simplify your workflow.<br>
         Fast, free, open source, and ad-free utilities at your fingertips.
@@ -186,7 +187,7 @@
   <footer class="text-gray-200 py-6 mt-10">
     <div class="text-center">
       <p class="text-sm">
-        &copy; <span id="current-year"></span> Dashboard Utilities. All rights reserved.
+        &copy; <span id="current-year"></span> Mas Dzub Utilities Dashboard. All rights reserved.
       </p>
     </div>
   </footer>
