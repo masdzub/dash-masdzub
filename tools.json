@@ -48,5 +48,10 @@
       "name": "MarkDown Editor",
       "description": "This is a basic Markdown editor inspired by HackMD. It allows you to write and preview Markdown documents with various formatting options.",
       "link": "https://markdown-editor.masdzub.com/"
+    },
+    {
+      "name": "JSON Formatter",
+      "description": "This is a simple JSON formatter that allows you to format JSON data in a human-readable way.",
+      "link": "https://json-formatter.masdzub.com/"
     }
   ]
